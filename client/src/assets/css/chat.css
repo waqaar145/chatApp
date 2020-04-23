@@ -1,0 +1,152 @@
+.chat-box {
+  background-color: #fff;
+  border-radius: 2px;
+}
+
+.nopadding {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.chat-users-box {
+  border: 1px solid gray;
+  margin: none !important;
+  background-color: #581830;
+  color: #fff;
+
+}
+
+.users-list-scroll {
+  overflow-y: scroll;
+  height: 100vh;
+  overflow-y: hidden;
+}
+
+.chat-messages-box {
+  border: 1px solid gray;
+  margin: none !important;
+}
+
+.chat-users-header {
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  border-bottom: 1px solid gray;
+}
+
+.chat-messages-header {
+  height: 50px;
+  line-height: 50px;
+  padding-left: 10px;
+  border-bottom: 1px solid gray;
+}
+
+.chat-users-header > .header-text {
+  font-size: 19px;
+}
+
+.chat-users-header, .chat-messages-header > .header-text {
+  font-size: 19px;
+}
+
+.chat-users-body .channels .title {
+  height: 50px;
+  line-height: 50px;
+  /* text-align: center; */
+  padding-left: 20px;
+  border-bottom: 0.001em solid gray;
+}
+
+.chat-users-body .channels  {
+  border-bottom: 0.001em solid #484848;
+}
+
+/* .chat-users-body .channels .list .list-style li a {
+  text-align: center;
+} */
+
+ul.list-style {
+  padding-top: 10px;
+  padding-left: 25px;
+}
+
+.list .list-style li {
+  list-style: none;
+  padding-left: -20px;
+  margin-bottom: 5px;
+}
+
+.list .list-style li a {
+  font-size: 15px;
+  text-decoration: none;
+  cursor: pointer;
+  color: #ccb9c0;
+}
+
+.list .list-style li a:hover {
+  font-size: 15px;
+  text-decoration: none;
+  cursor: pointer;
+  color: #ab8b97;
+}
+
+.content-float-right {
+  float: right;
+  padding-right: 15px;
+  cursor: pointer;
+}
+
+.chat-message-body .chat-header {
+  padding: 15px;
+}
+
+.dot{
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.online {
+  background-color: #049660;
+  border: 1px solid #049660;;
+}
+
+.offline {
+  background-color: none;
+  border: 1px solid gray;
+}
+
+/*
+  Individual - Chat style
+*/
+
+.conversation ul.media-list {
+  padding-left: 0px;
+}
+
+.conversation ul.media-list li {
+  padding: 15px;
+}
+
+.conversation .media-list .media img {
+  width:44px;
+  height:44px;
+  border:2px solid #e5e7e8;
+  margin-right: 10px;
+}
+
+.conversation .media-list .media {
+  padding-top: 15px;
+  border-top: 1px dashed #efefef;
+}
+
+.conversation .text-default {
+  margin-right:25px;
+}
+
+.chat-message-body .user-chat-area {
+  height: 70vh;
+  overflow-y: scroll;
+}

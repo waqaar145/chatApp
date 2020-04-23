@@ -1,0 +1,20 @@
+.input-box {
+  margin-bottom: 10px;
+}
+
+.message-box {
+  margin-bottom: 20px;
+  border: 1px solid grey;
+}
+
+.single-message {
+  border: 1px solid red;
+  margin-bottom: 10px;
+}
+
+.subject-name {
+  background-color: azure;
+  border: 1px solid gray;
+  padding: 2px;
+  margin: 10px
+}
